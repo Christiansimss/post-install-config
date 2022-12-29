@@ -88,7 +88,8 @@ Next head into the new and unzip folder from the osTicket download and copy the 
   
   <p>
 <img src="https://i.imgur.com/PlitxOI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+</p>![brYNraM - Imgur](https://user-images.githubusercontent.com/121305134/209887661-bef7dbce-4bc3-4364-a26e-31f77d9a7285.png)
+
 <p>
 Once we are done with the last step we want to head to are windows search bar and type in IIS. Select IIS and restart IIS with the panel on the right side, after that select the drop down arrow key for VM-osTicket or whatever name you selected earlier in the lab on the <strong>left hand panel--> then select sites--> Defualt Website--> and are osTicket folder</strong> should be there.
   
@@ -111,7 +112,7 @@ Now we head back to are wwwroot folder within file explorer, from there we selec
 After we changed the ost-sampleconfig.php to ost-config.php we will <strong>open its properties then --> open security --> click on advance --> then disable inheritance --> add permission --> select principle at the top left --> from there within the open box below for objects type everyone --> select Check Names --> and select ok --> on the following page select full control to give all basic permissions besides Special permissions for everyone</strong>. Your security panel should display whats above with everyone and full control under access.
   
   <p>
-<img src="https://imgur.com/a/ZERY5kW" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mQPzPDm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 If you've reached this page all the following steps have been completed successfully. Now simple fill out all the information as shown<strong>(Document The Admin User portion as well as the Database setting username and password will be needed for the lab).</strong>
